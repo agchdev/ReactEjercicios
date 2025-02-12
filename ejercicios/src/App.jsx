@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import Boton from './components/Boton'
+import Boton from './components/boton'
+import './App.css'
+import ListaDeTareas from './components/ListaDeTareas'
 
 function App() {
-  const [suma, setSuma] = useState(0)
 
   return (
     <>
-      <Boton></Boton>
+      <Boton />
+      <ListaDeTareas />
     </>
   )
 }
