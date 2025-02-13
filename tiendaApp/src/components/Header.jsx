@@ -4,9 +4,9 @@ import Nav from './Nav'
 
 const Header = () => {
   return (
-    <header className='bg-indigo-500 px-[20px] py-[40px] flex items-center justify-between text-white'>
+    <header className='bg-indigo-500 px-[20px] py-[30px] flex items-center justify-between text-white'>
         <div>
-            <img className='w-20' src={logo} alt="Logo" />
+            <img className='w-15' src={logo} alt="Logo" />
         </div>
         <Nav />
     </header>
