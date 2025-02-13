@@ -1,8 +1,15 @@
 import React from 'react'
+import logo from '../assets/logo.svg'
+import Nav from './Nav'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header className='bg-indigo-500 px-[20px] py-[40px] flex items-center justify-between text-white'>
+        <div>
+            <img className='w-20' src={logo} alt="Logo" />
+        </div>
+        <Nav />
+    </header>
   )
 }
 
