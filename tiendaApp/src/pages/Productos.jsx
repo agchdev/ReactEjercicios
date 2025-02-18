@@ -10,7 +10,7 @@ const Productos = () => {
     }, [])
 
   return (
-    <section>
+    <section className='grid grid-cols-3 my-5 mb-[100px] max-w-[1200px] mx-auto gap-4'>
         <Card productos = {productos} />
     </section>
   )
