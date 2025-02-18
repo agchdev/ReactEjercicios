@@ -14,7 +14,7 @@ const Detalles = () => {
   return (
     <>
       <section className='max-w-[960px] m-auto border p-5 my-10 text-center'>
-        <img src={producto.images[0]} alt="" className='h-[400px] m-auto'/>
+        <img src={producto.images} alt="" className='h-[400px] m-auto'/>
         <h1 className='font-bold text-4xl'>{producto.title}</h1>
       </section>
     </>
