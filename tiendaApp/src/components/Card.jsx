@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Card = ({productos,cantidad}) => {
+const Card = ({productos}) => {
     console.log(productos)
   return (
     <>

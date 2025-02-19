@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.enlaces{
+    @apply text-[14px] hover:text-red-200 transition-all
+}
